@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        body,h1,h3,h2,ul{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: aqua;
+            color: black;
+            padding: 18px;
+
+
+        }
+        header{
+            background-color: bisque;
+            color: blue;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px 0;
+}
+
+section {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 0.5em 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 0.5em 0;
+    }
+
+    nav ul li {
+        margin: 0.5em 0;
+    }
+    
+    footer {
+        font-size: 14px;
+        padding: 0.5em 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movies Store</h1>
+        <nav>
+            <ul style="color: #333;">
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>you can see many movies collection here !!! </h2>
+            <P>here details about the movie</P>
+            <img src="https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Camera" height="300px" width="500px">
+        </section>
+
+        <section id="about">
+            <h3>About the Movie</h3>
+            <p>Movie is the entertainment for the human and human can learn from the movie.</p>
+        </section>
+
+        <footer id="contact">
+            <h3>
+                Contact details
+            </h3>
+            <p>MO : 9876543210</p>
+            <p>INSTA : movies_flix</p>
+            <p>GMail: abc@gmail.com</p>
+            <p>&copy; 2024 moviesflix</p> 
+
+        </footer>
+    </main>
+</body>
+</html>
